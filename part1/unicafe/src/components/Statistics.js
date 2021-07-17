@@ -9,7 +9,6 @@ const Statistics = ({ good, neutral, bad }) => {
   if (all === 0) {
     return (
       <div>
-        <h1>Statistics</h1>
         <p>No feedback given</p>
       </div>
     );
